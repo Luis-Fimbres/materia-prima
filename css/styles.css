@@ -94,6 +94,10 @@
       border-bottom: 1px solid #ddd;
     }
 
+    td input{
+      width: fit-content;
+    }
+
     th {
       background-color: #004aad;
       color: white;
@@ -111,7 +115,7 @@
       background-color: #fdfdfd;
       transition: border 0.2s;
     }
-    #pedido{
+    #order{
         display: flex;
         justify-content: space-between;
         padding: 0.8rem;
